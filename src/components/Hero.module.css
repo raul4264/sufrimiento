@@ -1,0 +1,22 @@
+.body {
+  width: 100%;
+  height: 65em;
+  color: antiquewhite;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../src/assets/banner7.jpg");
+  background-repeat: no-repeat;
+  border: solid salmon 2px;
+}
+.h1 {
+  color: rgb(13, 255, 0);
+}
+.body img {
+}
+@media (max-width: 968px) {
+  .body {
+    background-image: url("../src/assets/banner7bis.jpg");
+    max-height: 30em;
+  }
+}
