@@ -34,7 +34,11 @@ function App() {
       </div>
       <div className="ocho">
         <h2>The best quality</h2>
-        <img className="ocho" src="./imagenes2/banner8.jpg" alt="algo" />
+        <img
+          className="ocho"
+          src="https://images.pexels.com/photos/8176112/pexels-photo-8176112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="algo"
+        />
       </div>
       <Footer />
     </div>
