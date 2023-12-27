@@ -30,6 +30,18 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+.ocho {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.ocho h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  border: solid;
+  background-color: black;
+  color: salmon;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

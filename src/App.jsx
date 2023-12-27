@@ -32,6 +32,10 @@ function App() {
         {/* CardProductos */}
         <ItemListContainer />
       </div>
+      <div className="ocho">
+        <h2>The best quality</h2>
+        <img className="ocho" src="./imagenes2/banner8.jpg" alt="algo" />
+      </div>
       <Footer />
     </div>
   );

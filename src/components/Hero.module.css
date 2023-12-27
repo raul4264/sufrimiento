@@ -5,9 +5,8 @@
   margin-bottom: 2em;
   display: flex;
   flex-direction: column;
-  background-image: url("../src/assets/banner7.jpg");
+  background-image: url("../imagenes/banner7.jpg");
   background-repeat: no-repeat;
-  border: solid salmon 2px;
 }
 .h1 {
   color: rgb(13, 255, 0);
