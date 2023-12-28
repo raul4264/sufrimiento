@@ -206,7 +206,8 @@ const ItemListContainer = () => {
       id: 23,
       categoria: "training",
       title: "Mrs",
-      image: "../imagenes2/foto22.jpg",
+      image:
+        "https://images.pexels.com/photos/786003/pexels-photo-786003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       price: "$2.23",
       description:
         "viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin",

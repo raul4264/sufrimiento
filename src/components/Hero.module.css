@@ -1,13 +1,15 @@
 .body {
-  width: 100%;
+  width: 80%;
   height: 65em;
   color: antiquewhite;
   margin-bottom: 2em;
   display: flex;
   flex-direction: column;
-  background-image: url("https://images.unsplash.com/photo-1509983165097-0c31a863e3f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1608541737042-87a12275d313?q=80&w=2061&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-repeat: no-repeat;
+  background-size: contain;
   margin-bottom: 3em;
+  margin: 0 auto;
 }
 .h1 {
   color: rgb(13, 255, 0);
@@ -16,8 +18,12 @@
 }
 @media (max-width: 968px) {
   .body {
-    background-image: url("../src/assets/banner7bis.jpg");
+    background-image: url("https://images.unsplash.com/photo-1608541737042-87a12275d313?q=80&w=2061&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
     max-height: 30em;
+    span {
+      max-width: 40%;
+    }
   }
 }
 
