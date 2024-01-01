@@ -1,7 +1,4 @@
-import style from "../components/ItemListContainer.module.css";
-
-const ItemListContainer = () => {
-  let data = [
+const productos = [
     {
       id: 2,
       categoria: "basquet",
@@ -262,27 +259,4 @@ const ItemListContainer = () => {
         "congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero",
     },
   ];
-  console.log(data);
-  return (
-    <div className={style.contenedor}>
-      {data.length > 0 &&
-        data.map((producto) => {
-          // eslint-disable-next-line react/jsx-no-undef
-          return (
-            <div key={producto.id} className={style.body}>
-              <img
-                className={style.img}
-                src={producto.image}
-                alt={producto.title}
-              />
-              <h4>{producto.categoria}</h4>
-              <h4>{producto.description}</h4>
-              <h4>Precio: {producto.price}</h4>
-            </div>
-          );
-        })}
-    </div>
-  );
-};
-
-export default ItemListContainer;
+  export default productos;

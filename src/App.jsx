@@ -1,48 +1,46 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import ItemListContainer from "./components/ItemListContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./paginas/Home";
+import About from "./paginas/About";
+import NoPage from "./paginas/NoPage";
+import Productos from "./paginas/Productos";
+import Layout from "./paginas/Layout";
 
-import Footer from "./components/Footer";
-import Categorias from "./components/Categorias";
-
-import Layout from "./components/Layout";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div>
-      <Navbar />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="productos" element={<Productos />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-      <Layout>
-        <Hero />
-        <Categorias />
-      </Layout>
+export default App;
 
-      <div className="app">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react mylogo" alt="React logo" />
-        </a>
-      </div>
-
-      <div className="contenedor">
-        {/* CardProductos */}
-        <ItemListContainer />
-      </div>
-      <div className="ocho">
+/**
+ * 
+ *      <div className="ocho">
         <h2>The best quality</h2>
         <img
           className="ocho"
           src="https://images.pexels.com/photos/8176112/pexels-photo-8176112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="algo"
         />
+        <br />
+        <a href="/home">ir a Home</a>
       </div>
-      <Footer />
-    </div>
-  );
-}
+ * 
+ * 
 
-export default App;
+ * 
+ * 
+ * 
+
+ * 
+ */
