@@ -5,6 +5,7 @@ import About from "./paginas/About";
 import NoPage from "./paginas/NoPage";
 import Productos from "./paginas/Productos";
 import Layout from "./paginas/Layout";
+import Snickers from "./paginas/Snickers";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="productos" element={<Productos />} />
           <Route path="about" element={<About />} />
+          <Route path="snickers" element={<Snickers />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

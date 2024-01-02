@@ -15,6 +15,9 @@ function Layout() {
           <li>
             <Link to="about">About</Link>
           </li>
+          <li>
+            <Link to="snickers">Snickers</Link>
+          </li>
         </ul>
         <div className="logitos">
           <a href="https://vitejs.dev" target="_blank">

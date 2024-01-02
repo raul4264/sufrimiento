@@ -96,6 +96,17 @@
   width: 70%;
   margin-left: 18%;
 }
+.zapatillas {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.zapatillas img {
+  max-width: 500px;
+}
 @media (max-width: 968px) {
   .home {
     max-width: 600px;
